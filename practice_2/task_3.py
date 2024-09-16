@@ -5,6 +5,10 @@ BMI = weight/height**2
 """
 weight = input()
 height = input()
+bmi = weight / (height ** 2)
+
+# Display the result
+print(bmi)
 
 
 #code here
